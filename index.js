@@ -794,7 +794,7 @@ bot.start(async (ctx) => {
     const welcomeText = 
         `🕷️ <b>ABOUT THIS BOT</b> 🕸️\n\n` +
         `Bot premium berbasis node.js yang terintegrasi dengan argo core systems untuk melakukan bypass enkripsi token netflix secara real-time. membantu pengecekan massal (bulk check) serta mengonversi cookies aktif menjadi tautan login otomatis tanpa email & password.\n\n` +
-  `terdapat 3 fitur convert yang tersedia :\n1. convert link to new link\n 2. convert link to cookies\n 3. convert cookies to link\n\n` +
+  `terdapat 3 fitur convert yang tersedia :\n1. convert link to new link\n2. convert link to cookies\n3. convert cookies to link\n\n` +
         `<blockquote>📊 <b>DATABASE & STATUS BOT</b>\n` +
         `• Total User : ${totalUser} Terdaftar\n` +
         `• Speed Proses : ± 2.5 Detik / Cookie\n` +
@@ -807,7 +807,7 @@ bot.start(async (ctx) => {
         caption: welcomeText,
         parse_mode: 'HTML',
         ...Markup.inlineKeyboard([
-            [Markup.button.url('🛒 Beli Netflix', 'https://t.me/@tCried'), Markup.button.callback('🕷️ Pilih Mode Convert', 'btn_mode_convert')],
+            [Markup.button.url('🛒 Beli Netflix', 'https://t.me/tCried'), Markup.button.callback('🕷️ Pilih Mode Convert', 'btn_mode_convert')],
             [Markup.button.callback('📖 Tutorial Login', 'btn_tutorial'), Markup.button.callback('🏆 Leaderboard', 'btn_leaderboard')],
             [Markup.button.url('🧑‍💻 Owner', 'https://t.me/tCried')]
         ])
